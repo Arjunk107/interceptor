@@ -1,0 +1,7 @@
+<h1>Interceptor </h1>
+<button type="button" (click)="showData()">Search</button>
+<div class="list" *ngFor="let deta of names">
+  <div>{{deta.id}}</div>
+  <div>{{deta.name}}</div>
+</div>
+<router-outlet></router-outlet>
